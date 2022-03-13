@@ -1,0 +1,280 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* Navigation Bar*/
+:root{
+    --navbar-height: 60px;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    top: 0px;
+}
+#navbar{
+    position: sticky;
+    top: 0px;
+}
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    opacity: 0.5;
+}
+/* Logo and Items*/
+#navbar #logo{
+    margin: 5px 38px;
+}
+#logo img{
+    height: 50px;
+}
+#navbar ul{
+    display: flex;
+}
+#navbar ul li{
+    list-style: none;
+}
+#navbar ul li a{
+    font-family: 'Baloo Bhai 2', cursive;
+    font-weight: 700;
+    text-decoration: none;
+    display: block;
+    font-size: 18px;
+    margin: 17px 20px;
+    padding: 0px 20px;
+    border-radius: 20px;
+    color: white;
+}
+#navbar ul li a:hover{
+    background-color: white;
+    color: black;
+}
+
+/*Home Section*/
+
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 45px 56px;
+    height: 419px;
+    align-items: center;
+    justify-content: center;
+}
+#home::before{
+    content: "";
+    background: url('BG\ Img.jpg') no-repeat center center/cover;
+    position: absolute;
+    height: 570px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    opacity: 0.75;
+}
+#home h1{
+    color: #451515;
+    font-family: 'Caveat', cursive;
+    font-size: 4rem;
+}
+#home #first{
+    font-size: 2rem;
+    color: #ffffff;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-weight: 700;
+    margin: 0px;
+}
+#home #second{
+    font-size: 2rem;
+    color: white;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-weight: 700;
+    margin: 10px;
+}
+#home #third{
+    font-size: 2rem;
+    color: white;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-weight: 700;
+    margin: 0px;
+}
+#home button {
+    font-family: 'Roboto', sans-serif;
+    color: #f9db0a;;
+    background-color: #304246;
+    border: 2px solid rgb(197, 255, 244);
+    border-radius: 9px;
+    font-size: 1em;
+    margin: 7px 0px;
+    padding: 5px 10px;
+    transition: all 0.2s;
+}
+#home button:hover{
+    border-color: #f1ff5c;
+    color: white;
+    background-color: rgb(207, 89, 89);
+    box-shadow: 0 0.5em 0.5em -0.4em #f1ff5c;
+    transform: translateY(-1px);
+    cursor: pointer;
+}
+
+/*Services Section*/
+#services-container h1{
+    text-align: center;
+    margin: 0px;
+    color: #451515;
+    font-family: 'Caveat', cursive;
+    font-size: 4rem;
+}
+#services-container::before{
+    content: "";
+    position: absolute;
+    background-color:white;
+    height: 466px;
+    width: 100%;
+    left: 0;
+    z-index: -1;
+    opacity: 0.7;
+}
+#services{
+    display: flex;
+    margin: 34px;
+    text-align: center;
+    justify-content: center;
+}
+#services .box{
+    border: 2px solid red;
+    border-radius: 23px;
+    margin: 0px 10px;
+    padding: 20px 15px;
+    background-color: #ffdd6f8a;
+    
+}
+#services .box img{
+    height: 160px;
+    margin: auto;
+    display: block;
+}
+.box h2{
+     font-family: 'Baloo Bhai 2', cursive;
+}
+
+/*Clients Section*/
+#clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#clients-container h1{
+    text-align: center;
+    margin: 0px;
+    color: #451515;
+    font-family: 'Caveat', cursive;
+    font-size: 4rem;
+}
+#clients-container::before{
+    content: "";
+    position: absolute;
+    background: url('cbg1.jpg');
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.3;
+}
+#clients .client-logo{
+    margin: 30px 75px;
+    padding-bottom: 18px;
+}
+#clients img{
+    height: 60px;
+}
+ #zomato{
+     display: block;
+    height: 80px;
+}
+
+/* Contact Section */
+#contact-container{
+    position: relative;
+}
+#contact-container h1{
+    text-align: center;
+    margin: 0px;
+    color: #451515;
+    font-family: 'Caveat', cursive;
+    font-size: 4rem;
+}
+
+#contact-container::before{
+    content: "";
+    position: absolute;
+    background: url('contact.jpg') no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 1;
+}
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+#contact-container .change{
+    width: 118%;
+    padding: 5px;
+    margin: 2px;
+    border-radius: 7px;
+}
+#contact-container label{
+    font-size: 1.1rem;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-weight: 600;
+
+}
+#SR-button{
+    display: flex;
+}
+#submit, #reset{
+    font-size: 1.1rem;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-weight: 600;
+    border: 2px solid black;
+    border-radius: 7px;
+
+}
+#reset{
+    margin-top: 10px;
+    margin-left: 5px;
+    padding: 5px 30px;
+}
+#submit{
+    margin-top: 10px;
+    margin-left: 4px;
+    padding: 5px 30px;
+}
+#submit:hover, #reset:hover{
+    background-color: rgb(223, 128, 128);
+    border: 2px solid white;
+    cursor: pointer;
+
+}
+
+/*Footer Section*/
+#footer{
+    justify-content: center;
+    text-align: center;
+    padding: 15px 4px;
+    margin: 0px 0px;
+    background-color: #936969;
+    color: white;
+    height: 30px;
+    font-size: 1.1rem;
+}

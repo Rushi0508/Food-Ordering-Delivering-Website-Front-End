@@ -1,0 +1,191 @@
+@media screen and (min-width: 1320px){
+    #services-container::before{
+        content: "";
+        position: absolute;
+        background-color:white;
+        height: 449px;
+        width: 100%;
+        left: 0;
+        z-index: -1;
+        opacity: 0.7;
+    }
+}
+@media screen and (min-width: 1550px){
+    #services-container::before{
+        content: "";
+        position: absolute;
+        background-color:white;
+        height: 431px;
+        width: 100%;
+        left: 0;
+        z-index: -1;
+        opacity: 0.7;
+    }
+}
+@media screen and (min-width: 1930px){
+    #services-container::before{
+        content: "";
+        position: absolute;
+        background-color:white;
+        height: 413px;
+        width: 100%;
+        left: 0;
+        z-index: -1;
+        opacity: 0.7;
+    }
+}
+@media screen and (max-width: 1115px){
+    #services-container::before{
+        content: "";
+        position: absolute;
+        background-color:white;
+        height: 484px;
+        width: 100%;
+        left: 0;
+        z-index: -1;
+        opacity: 0.7;
+    }
+}
+@media screen and (max-width: 1055px){
+    #services-container::before{
+        content: "";
+        position: absolute;
+        background-color:#ffffff42;
+        height: 484px;
+        width: 100%;
+        left: 0;
+        z-index: -1;
+        opacity: 0.7;
+    }
+    #services{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #services .box{
+        margin: 20px 3px 3px 3px;
+    }
+    #home{
+        height: 450px;
+    }
+}
+@media screen and (max-width: 936px){
+    #clients{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width:692px){
+    #navbar{
+        flex-direction: column;
+    }
+    #home{
+        height: 390px;
+    }
+}
+@media screen and (max-width:630px){
+    #home h1{
+        font-size: 3.5rem;
+    }
+}
+@media screen and (max-width:568px){
+    #home h1{
+        font-size: 3.2rem;
+    }
+    #navbar ul li a{
+        font-size: 18px;
+        margin-left: 2px;
+        margin-right: 3px;
+        padding-left: 19px;
+        padding-right: 23px;
+    }
+    #contact-container .change{
+        width: 90%;
+    }
+}
+@media screen and (max-width:520px){
+    #home h1{
+        font-size: 2.6rem;
+    }
+    #home #first{
+        font-size: 22px;
+    }
+    #home #second{
+        font-size: 22px;
+    }
+    #home #third{
+        font-size: 22px;
+    }
+    #home::before{
+        height: 501px;
+    }
+    #home{
+        height: 320px;
+    }
+}
+@media screen and (max-width:451px){
+    #home h1{
+        font-size: 2.3rem;
+    }
+    #navbar ul li a{
+        font-size: 15px;
+        margin-left: 2px;
+        margin-right: 3px;
+        padding-left: 19px;
+        padding-right: 23px;
+    }
+}
+@media screen and (max-width:411px){
+    #home h1{
+        font-size: 2.1rem;
+    }
+    #home #first{
+        font-size: 18px;
+    }
+    #home #second{
+        font-size: 18px;
+    }
+    #home #third{
+        font-size: 18px;
+    }
+    #navbar ul li a{
+        font-size: 10px;
+        margin-left: 2px;
+        margin-right: 3px;
+        padding-left: 19px;
+        padding-right: 23px;
+    }
+    #home button{
+        font-size: 0.8em;
+        margin: 4px 0px;
+        padding: 4px 10px;
+    }
+}
+@media screen and (max-width:385px){
+    #home h1{
+        font-size: 1.5rem;
+    }
+    #home #first{
+        font-size: 15px;
+    }
+    #home #second{
+        font-size: 15px;
+    }
+    #home #third{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width:325px){
+    #navbar ul li a{
+        font-size: 8px;
+        margin-left: 2px;
+        margin-right: 3px;
+        padding-left: 10px;
+        padding-right: 23px;
+    }
+    #logo img{
+        height: 30px;
+    }
+    #home{
+        height: 336px;
+    }
+}    
